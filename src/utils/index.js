@@ -1,4 +1,4 @@
-const movieArr = {};
+const movieArr = [];
 
 class Movie {
     constructor(title, actor = "Not specified"){

@@ -1,7 +1,7 @@
 const { Movie, movieArr } = require("./utils");
 
 const app = (args) => {
-    switch (args){
+    switch (args[2]){
         case "add":
             const movie =new Movie(args[3], args[4]);
             movie.add();
@@ -19,4 +19,4 @@ const app = (args) => {
     }
 };
 
-app(process.day1);
+app(process.argv);
