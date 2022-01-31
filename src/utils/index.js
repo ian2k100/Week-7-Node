@@ -1,6 +1,4 @@
-console.log('Hello World')
-
-const MovieArr = {};
+const movieArr = {};
 
 class Movie {
     constructor(title, actor = "Not specified"){
@@ -9,8 +7,8 @@ class Movie {
     }
 
     add (){
-        MovieArr.push(this);
+        movieArr.push(this);
     }
 }
 
-module.exports = {movie, MovieArr}
+module.exports = {Movie, movieArr}
